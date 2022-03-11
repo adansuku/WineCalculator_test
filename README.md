@@ -1,5 +1,5 @@
-WineCalculator
-Instructions
+### WineCalculator
+#### Instructions
 
 A developer was hired by a Michelin-star restaurant to develop a calculator for the prices of their wine list. Normally, wine prices in restaurants are just 2-3x of their base price, but the restaurant Sommelier considers this almost a robbery. Instead, his proposal is a price scale where the percent margin decreases for higher tiers:
 
@@ -7,7 +7,8 @@ A developer was hired by a Michelin-star restaurant to develop a calculator for 
 2. 15-30€: 41%
 3. 30-50€: 31%
 4. 50€ or more: 21%
-As an example, a wine with a base price of 35€ would be:
+
+### As an example, a wine with a base price of 35€ would be:
 
 1. 7.65€ for the first 15€
 2. 6.15€ for 15€ in the 15-30€ tier
