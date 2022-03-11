@@ -6,13 +6,13 @@ class WineCalculator
   end
 
   def self.calculate_price(price)
-    if price.between?(0, 15)
+    if price < 15
       price + tier1(price)
-    elsif price.between?(15, 30)
+    elsif price > 15 && price < 30
       tier1 + tier2(price - 15) + price
-    elsif price.between?(30, 50)
+    elsif price > 30 && price < 50
       tier1 + tier2 + tier3(price - 30) + price
-    elsif price >= 50
+    elsif price >= 50 
       tier1 + tier2 + tier3 + tier4(price - 50) + price
     end
   end
